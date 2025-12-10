@@ -1,0 +1,6 @@
+pydantic >= 2.0 # JSON schema and validation for LLM inputs/outputs
+ollama >= 0.3.0 # Python client for local Ollama LLMs
+requests >= 2.31.0 # HTTP library for URL requests
+trafilatura >= 1.9.0 # Extract main article content from web pages
+beautifulsoup4 >= 4.12.2 # HTML parsing library for web scraping
+typer >= 0.12.0 # CLI for main.py
