@@ -3,8 +3,9 @@ from typing import List
 
 class CleanResult(BaseModel):
     language: str
-    # cleaned_text: str
+    domain: str
     main_text: str
+    cleaned_text: str
     hashtags: List[str]
     mentions: List[str]
-    other_metadata: List[str]
+    #other_metadata: List[str]
